@@ -1,0 +1,54 @@
+.manufacturer-form-container {
+  margin-top: 10% !important;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.manufacturer-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.manufacturer-form {
+  display: grid;
+  gap: 10px;
+}
+
+.manufacturer-form input,
+.manufacturer-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.manufacturer-form .quantity-input {
+  display: flex;
+  align-items: center;
+}
+
+.manufacturer-form .quantity-input input {
+  flex: 1;
+}
+
+.manufacturer-form .quantity-input span {
+  margin-left: 5px;
+}
+
+.manufacturer-form .send-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.manufacturer-form .send-button:hover {
+  background-color: #0056b3;
+}
